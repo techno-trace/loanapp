@@ -1,0 +1,184 @@
+{
+	"info": {
+		"_postman_id": "7e31af31-0cef-4bd0-b30b-5ff2de97d06b",
+		"name": "Loan-App",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "loanapp.net/api/login",
+					"host": [
+						"loanapp",
+						"net"
+					],
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Logout",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "loanapp.net/api/login",
+					"host": [
+						"loanapp",
+						"net"
+					],
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Loans",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "loanapp.net/api/login",
+					"host": [
+						"loanapp",
+						"net"
+					],
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Loan",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "loanapp.net/api/login",
+					"host": [
+						"loanapp",
+						"net"
+					],
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Loan Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "loanapp.net/api/login",
+					"host": [
+						"loanapp",
+						"net"
+					],
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User Loans",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "1|ebCLHtjOZNG6Scask7tfHnx16Jj5ipfNZ5hsvfm4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "loanapp.net/api/user/loans",
+					"host": [
+						"loanapp",
+						"net"
+					],
+					"path": [
+						"api",
+						"user",
+						"loans"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Loan Repayment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "loanapp.net/api/login",
+					"host": [
+						"loanapp",
+						"net"
+					],
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer"
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
